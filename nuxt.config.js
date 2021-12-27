@@ -15,6 +15,7 @@ import {
 } from "./vuetify.options";
 
 export default {
+  buildDir: "dist",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - portfolio",
@@ -149,7 +150,4 @@ export default {
       });
     }
   }
-};
-export default {
-  buildDir: "dist"
 };
