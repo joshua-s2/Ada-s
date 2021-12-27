@@ -150,3 +150,6 @@ export default {
     }
   }
 };
+export default {
+  buildDir: "nuxt-dist"
+};
