@@ -16,7 +16,7 @@
 
     <v-container class="py-12">
       <div>
-        <h3>Social Media</h3>
+        <h3 >Social Media</h3>
         <h2>Let’s Be Friends</h2>
 
         <v-row class="my-5">

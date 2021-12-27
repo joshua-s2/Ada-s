@@ -19,9 +19,16 @@
   left: 5%;
   width: 300px;
   max-width: 500px;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    bottom: 43%;
+    width: 270px;
+  }
 }
 .view-work {
   position: relative;
   bottom: 70%;
   left: 5%;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    bottom: 56%;
+  }
 }

@@ -25,7 +25,7 @@
           <hr />
         </v-col>
         <v-col cols="12" md="6" class="pb-5 pb-sm-10" align-self="start">
-          <p class="text-body-2">
+          <p class="text-body-2 headings">
             Have a question? Need information about advertising? You've<br />
             come to the right placeHave a question? Need information<br />
             about advertising? You've come to the right place
