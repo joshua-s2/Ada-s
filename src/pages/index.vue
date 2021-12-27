@@ -6,7 +6,7 @@
     <Capabilities />
     <!-- <Works /> -->
     <Contact />
-    <Connect />/
+    <Connect />
   </div>
 </template>
 
