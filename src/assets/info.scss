@@ -1,0 +1,61 @@
+.user {
+  background-image: url("/Images/info-bg.svg");
+  background-repeat: no-repeat;
+}
+.user-dark {
+  background-image: url("/Images/dark-info-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.user-image {
+  background: black;
+  height: auto;
+  z-index: 0;
+  position: absolute;
+  right: 9%;
+  width: 40%;
+  align-self: center;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    width: 100%;
+    right: 0;
+  }
+  @media screen and (min-width: 950px) and (max-width: 1024px) {
+    width: 50%;
+    margin-right: -4% !important;
+  }
+}
+.ada-image {
+  z-index: 2;
+  @media screen and (min-width: 950px) {
+    height: 406px;
+  }
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    width: 75%;
+    margin-right: -6% !important;
+  }
+}
+.theme--light.v-expansion-panels .v-expansion-panel:not(:first-child)::after {
+  border: none;
+}
+.v-expansion-panel::before {
+  box-shadow: none !important;
+}
+.nav-icon {
+  border-radius: 50%;
+  background: black;
+}
+.theme--light.v-btn.v-btn--icon {
+  color: white !important;
+}
+.theme--dark.v-btn.v-btn--icon {
+  color: black !important;
+}
+.theme--dark.nav-icon {
+  background: white;
+}
+.contact-btn {
+  border-radius: 0 !important;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+  }
+}

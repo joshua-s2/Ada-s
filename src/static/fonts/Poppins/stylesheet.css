@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Black.ttf");
+	src: local("Poppins Black"), local("Poppins-Black"),
+		url("Poppins-Black.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Black.ttf") format("ttf"),
+		url("Poppins-Black.ttf") format("ttf"),
+		url("Poppins-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Extrabld.ttf");
+	src: local("Poppins Extrabold"), local("Poppins-Extrabld"),
+		url("Poppins-Extrabld.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Extrabld.ttf") format("ttf"),
+		url("Poppins-Extrabld.ttf") format("ttf"),
+		url("Poppins-Extrabld.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Bold.ttf");
+	src: local("Poppins Bold"), local("Poppins-Bold"),
+		url("Poppins-Bold.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Bold.ttf") format("ttf"),
+		url("Poppins-Bold.ttf") format("ttf"),
+		url("Poppins-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Semibold.ttf");
+	src: local("Poppins Semibold"), local("Poppins-Semibold"),
+		url("Poppins-Semibold.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Semibold.ttf") format("ttf"),
+		url("Poppins-Semibold.ttf") format("ttf"),
+		url("Poppins-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Regular.ttf");
+	src: local("Poppins Regular"), local("Poppins-Regular"),
+		url("Poppins-Regular.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Regular.ttf") format("ttf"),
+		url("Poppins-Regular.ttf") format("ttf"),
+		url("Poppins-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("Poppins-Light.ttf");
+	src: local("Poppins Light"), local("Poppins-Light"),
+		url("Poppins-Light.ttf?#iefix") format("embedded-opentype"),
+		url("Poppins-Light.ttf") format("ttf"),
+		url("Poppins-Light.ttf") format("ttf"),
+		url("Poppins-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("PoppinsT-Thin.ttf");
+	src: local("Poppins Thin"), local("PoppinsT-Thin"),
+		url("PoppinsT-Thin.ttf?#iefix") format("embedded-opentype"),
+		url("PoppinsT-Thin.ttf") format("ttf"),
+		url("PoppinsT-Thin.ttf") format("ttf"),
+		url("PoppinsT-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}

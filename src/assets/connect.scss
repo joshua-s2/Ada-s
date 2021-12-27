@@ -1,0 +1,108 @@
+.connect {
+  background-image: url("/Images/connect.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+.connect-dark {
+  background-image: url("/Images/dark-connect.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social-card {
+  border: 1px solid #000000 !important;
+}
+
+.darkGrey {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    width: 100%;
+  }
+}
+.cap-image {
+  height: 512px;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    height: 376px;
+  }
+}
+.cap-sheet {
+  height: 634px;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    height: 500px;
+  }
+}
+
+.theme--light.v-card {
+  border: 1px solid black !important;
+}
+.carousel-btn {
+  // border: none !important;
+  border-radius: 30% !important;
+  background: none !important;
+}
+.left-bottom {
+  position: absolute;
+  top: 42%;
+  left: 15%;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    left: 12%;
+    top: 25%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.center-slide {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  text-align: center;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    left: 12%;
+    top: 25%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.v-image__image.v-image__image--cover {
+  background-repeat: no-repeat;
+  background-size: inherit !important;
+  background-position: right center !important;
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    background-position: center !important;
+
+    background-size: contain !important;
+  }
+}
+.v-window.w-100.primary.v-item-group.theme--dark.v-carousel.v-carousel--hide-delimiter-background {
+  @media screen and (min-width: 0px) and (max-width: 900px) {
+    height: 500px !important;
+  }
+}
+
+.v-window__prev,
+.v-window__next {
+  background: none !important;
+  border-radius: 50%;
+  position: absolute;
+  margin: 0 16px;
+  top: calc(50% - 20px);
+  z-index: 1;
+  border: none;
+  @media screen and (min-width: 0px) and (max-width: 560px) {
+    display: none;
+  }
+}
+
+.backToTop {
+  transform: rotateZ(89deg);
+  position: absolute !important;
+  right: -2rem;
+  bottom: 5%;
+  z-index: 2;
+  text-transform: inherit !important;
+}
