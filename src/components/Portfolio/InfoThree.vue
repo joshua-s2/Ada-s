@@ -35,3 +35,8 @@
     </v-container>
   </div>
 </template>
+<script>
+export default {
+  name: "InfoThree"
+};
+</script>

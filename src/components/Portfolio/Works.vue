@@ -39,7 +39,7 @@
 </template>
 <script>
 export default {
-  name: "Contact",
+  name: "Works",
   data() {
     return {
       items: [

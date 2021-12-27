@@ -1,16 +1,22 @@
 <template>
   <div>
     <PortfolioSinglework6 />
-    <Info6 />
+    <InfoSix />
     <Contact />
     <Connect />
   </div>
 </template>
 <script>
-import Info6 from "~/components/Portfolio/Info6.vue";
+import InfoSix from "~/components/Portfolio/InfoSix.vue";
+import PortfolioSinglework6 from "~/components/Portfolio/Singlework6.vue";
+import Contact from "~/components/Contact.vue";
+import Connect from "~/components/Connect.vue";
 export default {
   components: {
-    Info6
+    InfoSix,
+    PortfolioSinglework6,
+    Contact,
+    Connect
   }
 };
 </script>

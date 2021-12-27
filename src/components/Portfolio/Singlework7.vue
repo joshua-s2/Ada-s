@@ -46,7 +46,7 @@
 </template>
 <script>
 export default {
-  name: "SingleWork",
+  name: "SingleWork7",
   data() {
     return {
       items: [

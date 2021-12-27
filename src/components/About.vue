@@ -26,7 +26,7 @@
 </template>
 <script>
 export default {
-  name: "Info",
+  name: "About",
   computed: {
     lightToDark() {
       return this.$vuetify.theme.dark ? "user-dark" : "user";

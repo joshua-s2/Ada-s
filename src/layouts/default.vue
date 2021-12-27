@@ -137,6 +137,7 @@
 </template>
 
 <script>
+import Themeswitch from "~/components/Themeswitch.vue";
 export default {
   data() {
     return {
@@ -208,6 +209,9 @@ export default {
     lightcolor() {
       return this.$vuetify.theme.dark ? "black" : "black";
     }
+  },
+  components: {
+    Themeswitch
   }
 };
 </script>

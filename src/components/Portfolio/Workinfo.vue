@@ -45,3 +45,8 @@
     </v-container>
   </div>
 </template>
+<script>
+export default {
+  name: "Workinfo"
+};
+</script>

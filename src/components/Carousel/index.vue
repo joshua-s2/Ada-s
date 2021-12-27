@@ -113,10 +113,11 @@
         </v-container>
       </v-carousel-item>
     </v-carousel>
-  </div> </template
->document
+  </div>
+</template>
 <script>
 export default {
+  name: "Carousel",
   data() {
     return {
       slides: [

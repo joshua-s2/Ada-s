@@ -68,6 +68,6 @@
 </template>
 <script>
 export default {
-  name: "Info2"
+  name: "InfoTwo"
 };
 </script>

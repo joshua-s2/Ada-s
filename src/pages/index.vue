@@ -2,31 +2,36 @@
   <div class="container-fluid">
     <Carousel />
     <Resume />
-    <Info />
+    <About />
     <Capabilities />
     <!-- <Works /> -->
     <Contact />
-    <Connect />
-    <!-- <v-row light justify="center" align="center">
-      <v-col cols="12" sm="8" md="6">
-        <SocialCard light class="my-5" />
-      </v-col>
-    </v-row> -->
+    <Connect />/
   </div>
 </template>
 
 <script>
-import SocialCard from "~/components/Cards/SocialCard.vue";
-// import Carousel from "~/components/Carousel/index.vue";
+import Carousel from "~/components/Carousel/index.vue";
+// import Carousel from "../components/Carousel/index.vue";
+import Resume from "~/components/Resume.vue";
+import About from "~/components/About.vue";
+import Capabilities from "~/components/Capabilities.vue";
+import Contact from "~/components/Connect.vue";
+import Connect from "~/components/Connect.vue";
 export default {
-  components: {
-    SocialCard
-    // Carousel
-  },
+  // name: "index",
   data() {
     return {
       dark: false
     };
+  },
+  components: {
+    Carousel,
+    Resume,
+    Capabilities,
+    Contact,
+    Connect,
+    About
   }
 };
 </script>
