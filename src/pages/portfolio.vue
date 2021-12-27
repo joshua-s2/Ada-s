@@ -2,7 +2,6 @@
   <div>
     <PortfolioHeader />
     <PortfolioWorks />
-
     <Contact />
     <Connect />
   </div>

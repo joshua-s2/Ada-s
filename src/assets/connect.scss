@@ -97,6 +97,11 @@
     display: none;
   }
 }
+.headings {
+  @media screen and (min-width: 0px) and (max-width: 560px) {
+    text-align: center !important;
+  }
+}
 
 .backToTop {
   transform: rotateZ(89deg);

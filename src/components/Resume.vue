@@ -7,14 +7,14 @@
         </v-col>
         <v-col cols="12" md="6" align-self="center" class="d-flex justify-end">
           <div class="d-d-inline-flex justify-end">
-            <h3 class="text-h4 text-sm-h3 mb-4">My Resume</h3>
-            <p class="text-body-2">
+            <h3 class="text-h4 text-sm-h3 mb-4 headings">My Resume</h3>
+            <p class="text-body-2 headings">
               I’m a computer programmer with experience in python, Javascript,
               Solana, Solidity, familiar with Rust, tools in machine learning
               such as tensorflow and keras. Hardware experience includes
               familiarity with Arduino.
             </p>
-            <p class="text-caption border-right">Download CV</p>
+            <!-- <p class="text-caption border-right">Download CV</p> -->
           </div>
         </v-col>
       </v-row>

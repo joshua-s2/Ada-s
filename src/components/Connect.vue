@@ -1,7 +1,7 @@
 <template>
   <div :class="lightToDark" class="primary">
     <v-btn
-      class=" backToTop contact-btn white--text"
+      class=" backToTop d-none d-sm-flex d-md-none contact-btn white--text"
       :class="darkcolor"
       v-scroll="onScroll"
       v-show="btnText"
