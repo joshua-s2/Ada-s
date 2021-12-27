@@ -62,7 +62,7 @@ export default {
     ]
   },
   genetate: {
-    routes: ["/"]
+    routes: ["/pages/", "/pages/work1"]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [{ src: "~/assets/main.scss", lang: "scss" }],
