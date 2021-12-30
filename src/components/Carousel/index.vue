@@ -47,6 +47,7 @@
                 :class="btnColor"
                 class="contact-btn font-weight-light"
                 large
+                :to="item.to"
               >
                 {{ item.btnText }}
               </v-btn>
@@ -105,6 +106,7 @@
                 :class="btnColor"
                 class="contact-btn font-weight-light"
                 sm-large
+                :to="item.to"
               >
                 {{ item.btnText }}
               </v-btn>
@@ -127,7 +129,8 @@ export default {
           text: `Gaming in the metaverse`,
           heading: "Design Inspiration",
           class: "left-bottom",
-          btnText: "Project Details."
+          btnText: "Project Details.",
+          to: "/work7"
         },
         {
           lightImage: "/images/dark-slide-2.svg",
@@ -135,7 +138,8 @@ export default {
           text: "Enter the world of healthcare through machine learning ",
           heading: "Design Inspiration",
           class: "left-bottom",
-          btnText: "Project Details."
+          btnText: "Project Details.",
+          to: "/work2"
         },
         {
           lightImage: "/images/light-slide-3.svg",
@@ -143,7 +147,8 @@ export default {
           text: "Build your data wherever you are",
           heading: "Design Inspiration",
           class: "center-slide",
-          btnText: "Project Details."
+          btnText: "Project Details.",
+          to: "/work3"
         }
       ]
     };

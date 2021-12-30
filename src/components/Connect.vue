@@ -1,7 +1,7 @@
 <template>
   <div :class="lightToDark" class="primary">
     <v-btn
-      class=" backToTop d-none d-sm-flex d-md-none contact-btn white--text"
+      class=" backToTop contact-btn white--text"
       :class="darkcolor"
       v-scroll="onScroll"
       v-show="btnText"
@@ -16,7 +16,7 @@
 
     <v-container class="py-12">
       <div>
-        <h3 >Social Media</h3>
+        <h3>Social Media</h3>
         <h2>Let’s Be Friends</h2>
 
         <v-row class="my-5">
@@ -41,7 +41,7 @@ export default {
   name: "Connect",
   computed: {
     darkcolor() {
-      return this.$vuetify.theme.dark ? "white" : "black";
+      return this.$vuetify.theme.dark ? "white--text" : "black";
     },
     lightToDark() {
       return this.$vuetify.theme.dark ? "connect-dark" : "connect";

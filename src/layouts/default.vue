@@ -124,11 +124,17 @@
         <Themeswitch />
       </v-main>
 
-      <v-footer app class="py-5 darkNeutral">
-        <p class=" white--text text-start">
-          &copy; {{ new Date().getFullYear() }}, Adaihueze Designed by Benbyx
-        </p>
-        <p class="white--text text-end">
+      <v-footer
+        absolute
+        app
+        class="py-5 darkNeutral d-flex justify-space-between"
+      >
+        <div>
+          <p class=" white--text">
+            &copy; {{ new Date().getFullYear() }}, Adaihueze Designed by Benbyx
+          </p>
+        </div>
+        <p class="white--text text-right">
           All Rights Reserved.
         </p>
       </v-footer>
@@ -171,7 +177,7 @@ export default {
         },
         {
           lightImg: "/images/hashnode-black.svg",
-          darkImg: "/images/hasnode-white.svg",
+          darkImg: "/images/hashnode-icon-white.svg",
           to: "https://ada-ihueze.hashnode.dev/"
         },
         {

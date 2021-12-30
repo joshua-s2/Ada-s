@@ -1,7 +1,9 @@
 <template>
   <div class="primary">
     <v-container>
-      <v-btn icon class="my-5" to="/portfolio"> <v-img :src="icon"/></v-btn>
+      <v-btn icon class="my-5" @click="$router.go(-1)">
+        <v-img :src="icon"
+      /></v-btn>
       <v-row align="center">
         <v-col cols="12" md="6" class="mt-5 mt-sm-5">
           <div class="text-subtitle-2">

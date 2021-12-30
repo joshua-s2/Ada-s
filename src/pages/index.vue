@@ -4,7 +4,7 @@
     <Resume />
     <About />
     <Capabilities />
-    <!-- <Works /> -->
+    <Works />
     <Contact />
     <Connect />
   </div>
@@ -16,6 +16,7 @@ import Carousel from "~/components/Carousel/index.vue";
 import Resume from "~/components/Resume.vue";
 import About from "~/components/About.vue";
 import Capabilities from "~/components/Capabilities.vue";
+import Works from "~/components/Works.vue";
 import Contact from "~/components/Contact.vue";
 import Connect from "~/components/Connect.vue";
 export default {
@@ -29,6 +30,7 @@ export default {
     Carousel,
     Resume,
     Capabilities,
+    Works,
     Contact,
     Connect,
     About
