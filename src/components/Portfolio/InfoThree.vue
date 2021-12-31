@@ -26,8 +26,8 @@
       </div>
       <v-btn
         class="my-4"
-        text
         target="_blank"
+        :class="darkcolor"
         rel="noopener noreferrer"
         href="https://share.streamlit.io/nwosu-ihueze/first_deploy/main/app.py"
         >View Project</v-btn
@@ -37,6 +37,13 @@
 </template>
 <script>
 export default {
-  name: "InfoThree"
+  name: "InfoThree",
+  computed: {
+    darkcolor() {
+      return this.$vuetify.theme.dark
+        ? "white black--text"
+        : "black white--text";
+    }
+  }
 };
 </script>

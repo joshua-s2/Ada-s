@@ -39,7 +39,7 @@
       </div>
       <v-btn
         class="my-4"
-        text
+        :class="darkcolor"
         target="_blank"
         rel="noopener noreferrer"
         href="https://medium.com/analytics-vidhya/eda-on-football-transfers-between-200-2018-a004e06ef087"
@@ -50,6 +50,13 @@
 </template>
 <script>
 export default {
-  name: "InfoFour"
+  name: "InfoFour",
+  computed: {
+    darkcolor() {
+      return this.$vuetify.theme.dark
+        ? "white black--text"
+        : "black white--text";
+    }
+  }
 };
 </script>

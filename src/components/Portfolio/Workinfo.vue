@@ -22,7 +22,7 @@
         available and the rate of vaccinations.
       </div>
 
-      <v-img class="my-15" src="/images/work2.svg" width="100%"></v-img>
+      <img class="my-15" src="/images/work2.svg" width="100%" />
 
       <div class="text-h6 mb-5">Conclusion:</div>
       The aim of this analysis is to answer the following questions.
@@ -38,6 +38,7 @@
       <v-btn
         class="my-4"
         target="_blank"
+        :class="darkcolor"
         rel="noopener noreferrer"
         href="https://medium.com/analytics-vidhya/data-analysis-with-visualization-covid-19-vaccine-progression-84ea786d5ab4"
         >View Project</v-btn
@@ -47,6 +48,13 @@
 </template>
 <script>
 export default {
-  name: "Workinfo"
+  name: "Workinfo",
+  computed: {
+    darkcolor() {
+      return this.$vuetify.theme.dark
+        ? "white black--text"
+        : "black white--text";
+    }
+  }
 };
 </script>

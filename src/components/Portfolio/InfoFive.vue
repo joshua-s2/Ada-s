@@ -10,7 +10,7 @@
         dimensionality.
       </div>
 
-      <v-img class="my-15" src="/images/work2.svg" width="100%"></v-img>
+      <img class="my-15" src="/images/work2.svg" width="100%" />
 
       <div class="text-h6 mb-5">Conclusion:</div>
       <div class="text-body-1">
@@ -19,7 +19,7 @@
       </div>
       <v-btn
         class="my-4"
-        text
+        :class="darkcolor"
         target="_blank"
         rel="noopener noreferrer"
         href="https://medium.com/analytics-vidhya/marketing-analysis-df9a019d2ec2"
@@ -30,6 +30,13 @@
 </template>
 <script>
 export default {
-  name: "InfoFive"
+  name: "InfoFive",
+  computed: {
+    darkcolor() {
+      return this.$vuetify.theme.dark
+        ? "white black--text"
+        : "black white--text";
+    }
+  }
 };
 </script>

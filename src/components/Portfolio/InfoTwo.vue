@@ -47,7 +47,7 @@
         </div>
       </div>
 
-      <v-img class="my-15" src="/images/work2.svg" width="100%"></v-img>
+      <img class="my-15" src="/images/work2.svg" width="100%" />
 
       <div class="text-h6 mb-5">Conclusion:</div>
       <div class="text-body-1">
@@ -57,7 +57,7 @@
       </div>
       <v-btn
         class="my-4"
-        text
+        :class="darkcolor"
         target="_blank"
         rel="noopener noreferrer"
         href="https://medium.com/analytics-vidhya/ai-and-2d-medical-imaging-4adf502f5773"
@@ -68,6 +68,13 @@
 </template>
 <script>
 export default {
-  name: "InfoTwo"
+  name: "InfoTwo",
+  computed: {
+    darkcolor() {
+      return this.$vuetify.theme.dark
+        ? "white black--text"
+        : "black white--text";
+    }
+  }
 };
 </script>
